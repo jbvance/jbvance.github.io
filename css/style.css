@@ -1,8 +1,9 @@
 :root {
-    --mainFont: 'Staatliches', cursive;
+    --mainFont: 'Oswald', sans-serif;
     --primary: #f1a94e;
     --secondary: #44b3c2;
     --light: #ffffff;
+    --gray: #ddd;
 }
 html {
     box-sizing: border-box;
@@ -78,24 +79,22 @@ p {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: auto;
     grid-auto-rows: auto;
     grid-gap: 1rem;
 }
 
-.portfolio h3:after {
-    height: .2rem;
-    width: 2rem;
-    background-color: var(--primary);
-    content: '';
-    display: block;
-    margin-top: 1rem;
+.portfolio-item {
+    border: 1px solid var(--gray);
 }
 
-.item:nth-child(3) {
-    grid-row-end: span 2;
+.portfolio-item h3 {
+    text-align: center;
 }
 
+.portfolio-item p {
+    margin: 2rem;
+}
 
 
 .footer {
