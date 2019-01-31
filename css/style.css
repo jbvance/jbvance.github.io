@@ -4,6 +4,8 @@
     --secondary: #44b3c2;
     --light: #ffffff;
     --gray: #ddd;
+    --lightGray: #f2f2f2;
+    --black: #000
 }
 html {
     box-sizing: border-box;
@@ -13,6 +15,7 @@ html {
 }
 body {
     font-family: var(--mainFont);
+    background-color: var(--lightGray);
 }
 .container {
     max-width: 1100px;
@@ -77,16 +80,40 @@ p {
     color: var(--secondary);
 }
 
-.portfolio {
+.portfolio-container {
+    background-color: var(--gray)
+}
+
+.portfolio-container h2 {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.portfolio {    
     display: grid;
     grid-template-columns: auto;
     grid-auto-rows: auto;
     grid-gap: 1rem;
+   padding: 3rem;
+}
+
+.portfolio-tech {
+    text-align: center;
+}
+
+.portfolio-tech img {
+    height: 52px;
 }
 
 .portfolio-item {
     border: 1px solid var(--gray);
+    background-color: var(--gray);
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    padding: 0 1.3rem 1.3rem 1.3rem;
 }
+
+
 
 .portfolio-item h3 {
     text-align: center;
