@@ -47,6 +47,9 @@ p {
 }
 
 .btn-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    text-align: center;
     padding: 1.5rem;
     margin: 1rem;
 }
