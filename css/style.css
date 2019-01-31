@@ -1,11 +1,11 @@
 :root {
     --mainFont: 'Oswald', sans-serif;
-    --primary: #f1a94e;
-    --secondary: #44b3c2;
+    
     --light: #ffffff;
     --gray: #ddd;
     --lightGray: #f2f2f2;
-    --black: #000
+    --black: #000;
+    --darkGray: #727375;
 }
 html {
     box-sizing: border-box;
@@ -44,6 +44,25 @@ p {
     background-size: cover;
     height: 100vh;    
     color: var(--light);
+}
+
+.btn-div {
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.btn {
+    background-color: var(--black);
+    color: var(--light);
+    text-decoration: none;
+    padding: 10px;    
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: var(--darkGray);
+    color: var(--black);
 }
 
 .hero .container {
