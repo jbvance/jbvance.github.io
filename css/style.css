@@ -22,6 +22,14 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+hr {
+    border: none;
+    height: 3px;
+    margin: 0;    
+    background-color: var(--darkGray)
+}
+
 img {
     max-width: 100%;
 }
@@ -38,6 +46,10 @@ p {
     font-size: 1.2rem;  
     line-height: 2rem;
 }
+
+a {
+    color: var(--light);
+  }
 
 .hero {
     background-image: url(../img/bg.jpg);
@@ -93,32 +105,17 @@ p {
     border-radius: 50%;
 }
 
-.service {
-    padding-top: 3rem;
-    text-align: center;
-}
-
-.service h2::after {
-    height: .5rem;
-    width: 7rem;
-    background-color: var(--primary);
-    content: '';
-    display: block;
-    margin: 1rem auto 0 auto;
-}
 
 .service i {
     font-size: 3rem;
     color: var(--secondary);
 }
 
-.portfolio-container {
-    background-color: var(--gray)
-}
 
 .portfolio-container h2 {
     text-align: center;
     padding-top: 3rem;
+    margin: 0;
 }
 
 .portfolio {    
