@@ -14,6 +14,13 @@
     <title>Jason Vance, Full Stack Web Developer</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#footer">Contact Me</a></li>           
+        </ul>
+        </nav>
     <header class="hero">
         <div class="container">
             <h1 class="sitename">Jason Vance</h1>
@@ -24,17 +31,23 @@
 
     <hr />
 
-    <section class="container about">
-        <div class="about-item"><img class="profile-pic" src="img/profile-pic.jpg" alt="My Picture"></div>
-        <div class="about-item">
-                I love using technology to solve real-world problems. Before changing careers, I worked as an attorney, where I learned 
-                to master new skills quickly, communicate effectively across a diverse audience, and solve complicated problems. Take a look at my portfolio to see 
+    <section class="container" id="about">
+        <h2>About</h2>
+        <div class="about">
+            <div class="about-item"><img class="profile-pic" src="img/profile-pic.jpg" alt="My Picture"></div>
+            <div class="about-item">
+                I love using technology to solve real-world problems. Before changing careers, I worked as an attorney, where I
+                learned
+                to master new skills quickly, communicate effectively across a diverse audience, and solve complicated
+                problems. Take a look at my portfolio to see
                 a few of the things I've worked on recently.
+            </div>
         </div>
+        
     </section>
     <hr />
 
-    <section class="portfolio-container container">
+    <section id="portfolio" class="portfolio-container container">
         <h2>My Portfolio</h2>
         <div id="portfolio" class="portfolio">
             <div class="portfolio-item">
@@ -100,20 +113,11 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="widget">
+    <footer id="footer" class="footer">
+        <div class="container">            
                 <h3>Contact me</h3>
                 <p><a href="mailto:jbvance@gmail.com?subject=Reaching out from your portfolio"><span><i class="far fa-envelope"></i></span>  Email</a></p>
-                <p><a href="https://www.linkedin.com/in/jbvance" target="_blank"><span><i class="fab fa-linkedin"></i></i></span>  LinkedIn</a></p>                
-            </div>
-            <div class="widget">
-                <h3>About me</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a sit voluptatum corporis labore qui 
-                    distinctio accusamus nam dolores voluptates? Asperiores, explicabo fugiat. Delectus, nesciunt? 
-                    Ratione nam quidem harum adipisci.
-                </p>
-            </div>
+                <p><a href="https://www.linkedin.com/in/jbvance" target="_blank"><span><i class="fab fa-linkedin"></i></i></span>  LinkedIn</a></p>                                      
         </div>
     </footer>
 
