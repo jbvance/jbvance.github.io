@@ -111,6 +111,10 @@ nav ul li {
     color: var(--black);
 }
 
+.btn-med {
+    padding: 10px 20px;
+}
+
 .hero .container {
     height: 100vh;
     display: grid;
